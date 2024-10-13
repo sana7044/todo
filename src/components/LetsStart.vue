@@ -1,9 +1,13 @@
 <template>
-  <CardContainer :cardItems="startPageItems" />
+  <div>
+    <CardContainer :cardItems="startPageItems" />
+    <CommonButton/>
+</div>
+
 </template>
 <script setup>
 import CardContainer from './cardContainer.vue'
-
+import CommonButton from "./commonButton.vue"
 const startPageItems = [
   {
     classContainerName: 'sit-anime-container',
