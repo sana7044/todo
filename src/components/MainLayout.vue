@@ -20,7 +20,7 @@ export default {}
   height: 130px;
   top: 126px;
   border-radius: 50%;
-  opacity: 0.1;
+  opacity: 0.2;
   background: linear-gradient(
     180deg,
     #46f080 0%,
@@ -41,7 +41,7 @@ export default {}
   right: 30px;
   width: 130px;
   height: 100px;
-  top: 0px;
+  top: 45px;
   opacity: 0.2;
   filter: drop-shadow(10px 20px 40px #edf046);
 }

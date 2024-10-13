@@ -12,6 +12,7 @@ import MainLayout from './components/MainLayout.vue'
   display: flex;
   height: 100vh;
   justify-content: center;
+  align-items: center; 
   margin: auto;
   max-width: 400px;
   position: relative;

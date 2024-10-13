@@ -144,41 +144,4 @@ const props = defineProps({
   height: 4px;
   width: 4px;
 }
-.ellipses-yellow-container {
-  position: absolute;
-
-  left: 220px; /* x-coordinate */
-  top: 0px; /* y-coordinate */
-}
-.ellipses-yellow {
-  height: 180px;
-  width: 180px;
-}
-.ellipses-green-container {
-  position: absolute;
-  left: 0px; /* x-coordinate */
-  top: 150px; /* y-coordinate */
-}
-.ellipses-green {
-  height: 180px;
-  width: 180px;
-}
-.ellipses-purple-container {
-  position: absolute;
-  left: 220px; /* x-coordinate */
-  top: 220px; /* y-coordinate */
-}
-.ellipses-purple {
-  height: 180px;
-  width: 180px;
-}
-.ellipses-blue-container {
-  position: absolute;
-  left: 76px; /* x-coordinate */
-  top: 355px; /* y-coordinate */
-}
-.ellipses-blue {
-  height: 180px;
-  width: 180px;
-}
 </style>
