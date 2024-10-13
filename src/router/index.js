@@ -5,16 +5,10 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: ()=>import('../components/cardContainerEllipses.vue'),
-      children:[{
-          path: '',
-          name:'home.letstart',
-          component:()=>import('../components/LetsStart.vue')
-        }
-      ]
+      name: 'home.index',
+      component: () => import('../pages/home/Index.vue'),
     },
-  ]
+  ],
 })
 
 export default router
