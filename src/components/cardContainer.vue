@@ -7,6 +7,7 @@
     >
       <img :src="card.imgPath" :class="card.imgClass" />
     </div>
+    <slot></slot>
   </div>
 </template>
 <script setup>

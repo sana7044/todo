@@ -1,7 +1,12 @@
 <template>
-  <div>
-    <CardContainer :cardItems="startPageItems" />
-    <CommonButton/>
+  <div class="main">
+    <CardContainer :cardItems="startPageItems" >
+      
+    </CardContainer>
+    <div class="task-management">
+      <b>Task Management & To-Do List</b>
+      <CommonButton/>
+    </div>
 </div>
 
 </template>
@@ -76,3 +81,12 @@ const startPageItems = [
   },
 ]
 </script>
+
+
+<style lang="scss">
+.task-management {
+  position: absolute;
+  top: 60%;
+  left: 2rem;
+}
+</style>
