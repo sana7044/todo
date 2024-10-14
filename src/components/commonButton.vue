@@ -1,12 +1,27 @@
 <template>
   <div class="button-container">
-    <button class="btn">
-      <span class="button-text">Let's Start</span>
-      <span class="fas fa-arrow-right icon"></span>
+    <button class="btn" :style="{ '--icon-size': icnSize + 'px' }">
+      <span class="button-text">{{ btnText }}</span>
+      <span :class="btnIcon" class="icon"></span>
     </button>
   </div>
 </template>
-<script>
+<script setup>
+import { defineProps } from "vue";
+const props = defineProps({
+  btnText: {
+    type: String,
+    required: true,
+  },
+  btnIcon: {
+    type: String,
+    required: false,
+  },
+  icnSize: {
+    type: Number,
+    required: true,
+  },
+});
 </script>
 <style lang="scss" scoped>
 .button-container {
@@ -32,9 +47,8 @@
 }
 .icon {
   position: absolute;
-  font-size: 24px; /* Size of the Font Awesome icon */
-  right: 20px; /* Position it on the right side */
-  top: 14px; /* Center vertically */
+  font-size: var(--icon-size); /* Size of the Font Awesome icon */
+  right: 8%; /* Position it on the right side */
 }
 .btn:hover {
   background-color: #4610e6;

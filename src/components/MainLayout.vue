@@ -41,7 +41,7 @@ export default {}
   right: 30px;
   width: 130px;
   height: 100px;
-  top: 45px;
+  top: 20px;
   opacity: 0.2;
   filter: drop-shadow(10px 20px 40px #edf046);
 }
